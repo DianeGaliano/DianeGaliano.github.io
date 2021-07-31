@@ -17,7 +17,7 @@ header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color: var (var(--light));
 }
 
 header h1 {
@@ -80,7 +80,7 @@ content {
     margin-left: 20px;
 }
 
-benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
